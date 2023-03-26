@@ -7,17 +7,23 @@ Just created my first Google Chrome extension and I'm thrilled to learn how it w
 Manifest.json must include the following :- 
 ```
 {
-  // Required
-  "manifest_version": 3,
-  "name": "My Extension",
-  "description":"here goes your description.",
-  "version": "1.0.1",
+{
+    "name": "name",
+    "description": "here goes your description",
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+}
+}
 
-  // Recommended
-  "action": {...},
-  "default_locale": "en",
-  "description": "A plain text description",
-  "icons": {...},
+
   ```
 
 ### These are the basic required files to make a google extension.
