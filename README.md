@@ -6,7 +6,7 @@ Just created my first Google Chrome extension and I'm thrilled to learn how it w
 - One must know HTML, CSS and JavaScript in order to make a google chrome extension. Manifest.json is the file that makes it extension. 
 Manifest.json must include the following :- 
 ```
-{
+
 {
     "name": "name",
     "description": "here goes your description",
